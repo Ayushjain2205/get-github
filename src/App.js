@@ -69,7 +69,7 @@ class App extends Component {
       <Router>
         <div className='App'>
           <Navbar />
-          <div className='container'>
+          <div className='container total'>
             <Alert alert={this.state.alert} />
             <Switch>
               <Route
